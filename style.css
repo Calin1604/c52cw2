@@ -1,0 +1,50 @@
+h1{
+    color:brown;
+}
+.header{
+    background-color:#808080;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: center;
+
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+ margin-left: 30px;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:blueviolet;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item p:hover{
+    opacity:1;
+}
+.item img:hover{
+    opacity:0.33;
+}
